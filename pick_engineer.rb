@@ -37,10 +37,14 @@ def featureB(engineer)
 	return a[0]+' '+b[0] +'...' 	# show output------- 
 end 
 
+<<<<<<< HEAD
 puts "Enter name : "
 search = gets.chomp
 
 name = pick_engineer(search)
+=======
+name = pick_engineer(ARGV[0])
+>>>>>>> 83405b0eca9a0543d4014c76e91cf4702b5c66c3
 puts "1. %s" % [name]
 
 puts "2. %s" % [featureA(name)]
